@@ -1,0 +1,4 @@
+#Tue Jul 09 19:51:18 WIB 2024
+base.0=/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

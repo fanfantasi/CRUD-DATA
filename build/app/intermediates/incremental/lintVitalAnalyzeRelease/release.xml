@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.testing"
+    minSdkVersion="19"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/Users/hyppedevelopment/Documents/DEV/flutter3.13.8/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/Users/hyppedevelopment/.gradle/caches/transforms-3/bd65921de16db1d78bd37241e498ab28/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/intermediates/javac/release/classes:/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/tmp/kotlin-classes/release:/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/kotlinToolingMetadata:/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.testing"
+      generatedSourceFolders="/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/generated/ap_generated_sources/release/out:/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/generated/aidl_source_output_dir/release/out:/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/generated/source/buildConfig/release:/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/generated/res/rs/release:/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>
