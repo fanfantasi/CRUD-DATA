@@ -214,6 +214,7 @@ class UsersNotifier extends ChangeNotifier {
     textNameController.text = selectedData?.firstname??'';
     textLastnameController.text = selectedData?.lastname??'';
   }
+  
   //Update Data
   Future<void> update(BuildContext context) async {
     try{

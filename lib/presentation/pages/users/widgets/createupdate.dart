@@ -22,6 +22,11 @@ class _CreatePageState extends State<CreatePage> {
       var params = ModalRoute.of(context)?.settings.arguments as String;
       if (params == 'edited'){
         notifier.autoFillData();
+      }else{
+        notifier.id = 0;
+        notifier.textNameController.clear();
+        notifier.textJobController.clear();
+        notifier.textLastnameController.clear();
       }
     });
     super.initState();

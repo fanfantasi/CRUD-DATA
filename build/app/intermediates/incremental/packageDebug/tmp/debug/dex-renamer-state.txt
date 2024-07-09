@@ -1,4 +1,4 @@
-#Tue Jul 09 19:47:08 WIB 2024
+#Tue Jul 09 19:59:28 WIB 2024
 base.0=/Users/hyppedevelopment/Documents/External/Test-Mobile-Developer-Maimaid/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

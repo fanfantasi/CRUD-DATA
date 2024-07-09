@@ -42,6 +42,7 @@ class _SelectedPageState extends State<SelectedPage> {
             await notifier.refreshLocalData();
           },
           onLoadmore: () async {},
+          noMoreWidget: Container(),
           child: notifier.userLocal.isEmpty
               ? SizedBox(
                   height: MediaQuery.of(context).size.height * .8,
